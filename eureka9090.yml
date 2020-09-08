@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: eureka9090
+    
+server:
+  port: 9090
+    
+eureka:
+  client:
+    registerWithEureka: false 
+    fetchRegistry: false
